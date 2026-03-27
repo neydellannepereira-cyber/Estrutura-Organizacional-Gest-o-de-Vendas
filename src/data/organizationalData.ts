@@ -87,8 +87,8 @@ export const DADOS: OrganizationalData = {
       distritais: [
         {
           nome: "Nayphi",
-          telefone: "",
-          email: "",
+          telefone: "73 9909-9033",
+          email: "nayphi.alves@farmaciaindiana.com.br",
           filiais: [
             { codigo: 228, nome: "Canavieiras" },
             { codigo: 256, nome: "Jequie" },
@@ -125,8 +125,8 @@ export const DADOS: OrganizationalData = {
       distritais: [
         {
           nome: "Jarlerson",
-          telefone: "",
-          email: "",
+          telefone: "73 9944-2681",
+          email: "jarleson.carvalho@farmaciaindiana.com.br",
           filiais: [
             { codigo: 65, nome: "Eunapolis" },
             { codigo: 71, nome: "Eunapolis 2" },
@@ -167,8 +167,8 @@ export const DADOS: OrganizationalData = {
       distritais: [
         {
           nome: "Jairo",
-          telefone: "",
-          email: "",
+          telefone: "71 9719-9837",
+          email: "jairo.lima@farmaciaindiana.com.br",
           filiais: [
             { codigo: 196, nome: "Itapetinga" },
             { codigo: 197, nome: "Lauro De Freitas" },
@@ -221,7 +221,7 @@ export const DADOS: OrganizationalData = {
         {
           nome: "Kassia Monteiro Laurindo",
           telefone: "(27) 99503-2792",
-          email: "",
+          email: "kassia.laurindo@farmaciaindiana.com.br",
           filiais: [
             { codigo: 210, nome: "Meridional" },
             { codigo: 211, nome: "Henrique Moscoso" },
@@ -253,8 +253,8 @@ export const DADOS: OrganizationalData = {
       distritais: [
         {
           nome: "Felipe",
-          telefone: "",
-          email: "",
+          telefone: "32 9989-1946",
+          email: "felipe.fagundes@farmaciaindiana.com.br",
           filiais: [
             { codigo: 134, nome: "Carangola" },
             { codigo: 156, nome: "Ipanema" },
@@ -292,8 +292,8 @@ export const DADOS: OrganizationalData = {
       distritais: [
         {
           nome: "Manuela",
-          telefone: "",
-          email: "",
+          telefone: "34 8846-5690",
+          email: "manuela.souza@farmaciaindiana.com.br",
           filiais: [
             { codigo: 13, nome: "Itabira" },
             { codigo: 50, nome: "João Monlevade 2" },
@@ -432,8 +432,8 @@ export const DADOS: OrganizationalData = {
       distritais: [
         {
           nome: "Gabriela",
-          telefone: "",
-          email: "",
+          telefone: "31 8782-3033",
+          email: "gabriela.martins@farmaciaindiana.com.br",
           filiais: [
             { codigo: 43, nome: "Avenida Brasil" },
             { codigo: 47, nome: "Ipatinga 2" },
@@ -476,8 +476,8 @@ export const DADOS: OrganizationalData = {
       distritais: [
         {
           nome: "Sandra",
-          telefone: "",
-          email: "",
+          telefone: "31 9428-3713",
+          email: "sandra.cangussu@farmaciaindiana.com.br",
           filiais: [
             { codigo: 21, nome: "Acesita" },
             { codigo: 45, nome: "Metasita" },

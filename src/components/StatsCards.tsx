@@ -4,7 +4,7 @@ const stats = [
   { icon: Building2, value: 2, label: "Gerentes Divisionais", color: "bg-indiana-orange/10 text-indiana-orange" },
   { icon: MapPin, value: 15, label: "Gerentes Regionais", color: "bg-indiana-blue/10 text-indiana-blue" },
   { icon: Users, value: 10, label: "Gerentes Distritais", color: "bg-indiana-purple/10 text-indiana-purple" },
-  { icon: Store, value: 295, label: "Filiais Ativas", color: "bg-emerald-100 text-emerald-600" },
+  { icon: Store, value: 296, label: "Filiais Ativas", color: "bg-emerald-100 text-emerald-600" },
 ];
 
 const StatsCards = () => {

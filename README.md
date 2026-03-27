@@ -1,3 +1,2 @@
-# Welcome to your Lovable project
-
-TODO: Document your project here
+Estrutura Organizacional
+Gestão de Vendase

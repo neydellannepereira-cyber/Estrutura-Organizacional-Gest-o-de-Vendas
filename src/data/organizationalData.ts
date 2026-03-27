@@ -240,10 +240,7 @@ export const DADOS: OrganizationalData = {
           ]
         }
       ],
-      filiais_diretas: [
-        { codigo: 76, nome: "Esplanada" },
-        { codigo: 295, nome: "Sao Miguel" }
-      ],
+      filiais_diretas: [],
       total_filiais: 27
     }
   ],

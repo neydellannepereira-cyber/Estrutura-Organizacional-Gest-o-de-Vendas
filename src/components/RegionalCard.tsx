@@ -67,7 +67,7 @@ const RegionalCard = ({ regional }: RegionalCardProps) => {
                   key={f.codigo}
                   className="flex items-center gap-1.5 px-2.5 py-1.5 bg-purple-50 rounded-md text-xs border border-transparent hover:bg-purple-100 hover:border-indiana-purple/30 transition-colors"
                 >
-                  <span className="font-bold text-indiana-purple text-[11px]">#{f.codigo}</span>
+                  <span className="font-bold text-indiana-purple text-[11px]">FL {String(f.codigo).padStart(3, '0')}</span>
                   <span className="text-foreground font-medium truncate">{f.nome}</span>
                 </div>
               ))}

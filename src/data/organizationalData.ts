@@ -27,7 +27,7 @@ export interface OrganizationalData {
 export const DADOS: OrganizationalData = {
   "LUCIMAR": [
     {
-      codigo: "BA1",
+      codigo: "BA",
       gerente: "Monique Araujo Pereira",
       telefone: "73 99989-3404",
       email: "monique.pereira@farmaciaindiana.com.br",
@@ -39,7 +39,6 @@ export const DADOS: OrganizationalData = {
         { codigo: 34, nome: "Itabata" },
         { codigo: 35, nome: "Posto Da Mata" },
         { codigo: 48, nome: "Itamaraju" },
-        { codigo: 76, nome: "Marechal" },
         { codigo: 80, nome: "Regional" },
         { codigo: 91, nome: "Rondelli" },
         { codigo: 95, nome: "Medeiros Neto" },
@@ -53,7 +52,7 @@ export const DADOS: OrganizationalData = {
         { codigo: 280, nome: "Pioneiro" },
         { codigo: 283, nome: "Mucuri" }
       ],
-      total_filiais: 19
+      total_filiais: 18
     },
     {
       codigo: "ES",
@@ -87,11 +86,11 @@ export const DADOS: OrganizationalData = {
       email: "renan.fraga@farmaciaindiana.com.br",
       distritais: [
         {
-          nome: "Nayphi Batista Alves",
-          telefone: "73 9909-9033",
-          email: "nayphi.alves@farmaciaindiana.com.br",
+          nome: "Nayphi",
+          telefone: "",
+          email: "",
           filiais: [
-            { codigo: 246, nome: "Ipiau" },
+            { codigo: 228, nome: "Canavieiras" },
             { codigo: 256, nome: "Jequie" },
             { codigo: 263, nome: "Jequiezinho" },
             { codigo: 270, nome: "Jaguaquara" },
@@ -110,14 +109,13 @@ export const DADOS: OrganizationalData = {
         { codigo: 147, nome: "Itabuna Conlar" },
         { codigo: 155, nome: "Posto Sante" },
         { codigo: 189, nome: "Ilheus Pontal" },
-        { codigo: 204, nome: "Ilheus" },
-        { codigo: 228, nome: "Canavieiras" },
         { codigo: 231, nome: "Sao Caetano" },
         { codigo: 232, nome: "Itacare" },
+        { codigo: 246, nome: "Ipiau" },
         { codigo: 269, nome: "Ilheus Orla" },
         { codigo: 271, nome: "Barra Grande" }
       ],
-      total_filiais: 21
+      total_filiais: 20
     },
     {
       codigo: "PS",
@@ -126,9 +124,9 @@ export const DADOS: OrganizationalData = {
       email: "jeferson.felisberto@farmaciaindiana.com.br",
       distritais: [
         {
-          nome: "Jarleson da Silva Carvalho",
-          telefone: "73 99944-2681",
-          email: "jarleson.carvalho@farmaciaindiana.com.br",
+          nome: "Jarlerson",
+          telefone: "",
+          email: "",
           filiais: [
             { codigo: 65, nome: "Eunapolis" },
             { codigo: 71, nome: "Eunapolis 2" },
@@ -149,7 +147,7 @@ export const DADOS: OrganizationalData = {
         { codigo: 79, nome: "Baianão" },
         { codigo: 84, nome: "Navegantes" },
         { codigo: 86, nome: "Porto Centro" },
-        { codigo: 92, nome: "Arraial Dajuda" },
+        { codigo: 92, nome: "Arraial D Ajuda" },
         { codigo: 123, nome: "Broadway" },
         { codigo: 158, nome: "Coroa Vermelha" },
         { codigo: 164, nome: "Trancoso" },
@@ -168,9 +166,9 @@ export const DADOS: OrganizationalData = {
       email: "jose.oliveira@farmaciaindiana.com.br",
       distritais: [
         {
-          nome: "Jairo Moreira Lima",
-          telefone: "71 99719-9837",
-          email: "jairo.lima@farmaciaindiana.com.br",
+          nome: "Jairo",
+          telefone: "",
+          email: "",
           filiais: [
             { codigo: 196, nome: "Itapetinga" },
             { codigo: 197, nome: "Lauro De Freitas" },
@@ -205,19 +203,17 @@ export const DADOS: OrganizationalData = {
           telefone: "27 99737-5202",
           email: "ezequiel.andrade@farmaciaindiana.com.br",
           filiais: [
-            { codigo: 76, nome: "Esplanada" },
             { codigo: 94, nome: "Linhares" },
             { codigo: 114, nome: "Colatina" },
             { codigo: 115, nome: "Sao Silvano" },
             { codigo: 146, nome: "Linhares 2" },
             { codigo: 167, nome: "Linhares 3" },
             { codigo: 179, nome: "Vila Nova" },
+            { codigo: 187, nome: "Aracruz" },
             { codigo: 222, nome: "Interlagos" },
             { codigo: 239, nome: "Anhanguera" },
-            { codigo: 287, nome: "N Sra Da Conceicao" },
-            { codigo: 295, nome: "Sao Miguel" },
-            { codigo: 187, nome: "Aracruz" },
-            { codigo: 240, nome: "Baixo Guandu" }
+            { codigo: 240, nome: "Baixo Guandu" },
+            { codigo: 287, nome: "N Sra Da Conceicao" }
           ]
         },
         {
@@ -228,21 +224,24 @@ export const DADOS: OrganizationalData = {
             { codigo: 210, nome: "Meridional" },
             { codigo: 211, nome: "Henrique Moscoso" },
             { codigo: 221, nome: "Guarapari" },
-            { codigo: 236, nome: "Itaparica" },
             { codigo: 235, nome: "Novo Horizonte" },
+            { codigo: 236, nome: "Itaparica" },
             { codigo: 243, nome: "Norte Sul" },
             { codigo: 255, nome: "Guarapari 2" },
-            { codigo: 282, nome: "Jacaraipe" },
-            { codigo: 292, nome: "Gloria" },
-            { codigo: 293, nome: "Nova Almeida" },
             { codigo: 260, nome: "Anchieta" },
-            { codigo: 276, nome: "Cachoeiro De Itapemirim" },
             { codigo: 275, nome: "Castelo" },
-            { codigo: 291, nome: "Itaipava" }
+            { codigo: 276, nome: "Cachoeiro De Itapemirim" },
+            { codigo: 282, nome: "Jacaraipe" },
+            { codigo: 291, nome: "Itaipava" },
+            { codigo: 292, nome: "Gloria" },
+            { codigo: 293, nome: "Nova Almeida" }
           ]
         }
       ],
-      filiais_diretas: [],
+      filiais_diretas: [
+        { codigo: 76, nome: "Esplanada" },
+        { codigo: 295, nome: "Sao Miguel" }
+      ],
       total_filiais: 27
     }
   ],
@@ -254,9 +253,9 @@ export const DADOS: OrganizationalData = {
       email: "fabianogarcia@farmaciaindiana.com.br",
       distritais: [
         {
-          nome: "Felipe Ferreira Fagundes",
-          telefone: "32 99989-1946",
-          email: "felipe.fagundes@farmaciaindiana.com.br",
+          nome: "Felipe",
+          telefone: "",
+          email: "",
           filiais: [
             { codigo: 134, nome: "Carangola" },
             { codigo: 156, nome: "Ipanema" },
@@ -293,9 +292,9 @@ export const DADOS: OrganizationalData = {
       email: "robson@farmaciaindiana.com.br",
       distritais: [
         {
-          nome: "Manuela de Souza Ignacio",
-          telefone: "34 98846-5690",
-          email: "manuela.souza@farmaciaindiana.com.br",
+          nome: "Manuela",
+          telefone: "",
+          email: "",
           filiais: [
             { codigo: 13, nome: "Itabira" },
             { codigo: 50, nome: "João Monlevade 2" },
@@ -321,9 +320,10 @@ export const DADOS: OrganizationalData = {
         { codigo: 133, nome: "Acacias" },
         { codigo: 139, nome: "Turmalina" },
         { codigo: 203, nome: "Milton Campos" },
-        { codigo: 264, nome: "Planalto" }
+        { codigo: 264, nome: "Planalto" },
+        { codigo: 298, nome: "Minas Novas" }
       ],
-      total_filiais: 21
+      total_filiais: 22
     },
     {
       codigo: "GV",
@@ -381,28 +381,17 @@ export const DADOS: OrganizationalData = {
         { codigo: 209, nome: "Sao Joao Del Rei" },
         { codigo: 257, nome: "Barro Preto" },
         { codigo: 266, nome: "Ouro Branco 2" },
-        { codigo: 296, nome: "Nova Serrana" }
+        { codigo: 296, nome: "Nova Serrana" },
+        { codigo: 301, nome: "Marelli" }
       ],
-      total_filiais: 16
+      total_filiais: 17
     },
     {
       codigo: "TO",
       gerente: "Fabiano Resende",
       telefone: "31 97231-0731",
       email: "fabianoresende@farmaciaindiana.com.br",
-      distritais: [
-        {
-          nome: "Eduardo Bastos",
-          telefone: "33 98819-7398",
-          email: "eduardo.bastos@farmaciaindiana.com.br",
-          filiais: [
-            { codigo: 40, nome: "Nanuque" },
-            { codigo: 61, nome: "Nanuque2" },
-            { codigo: 62, nome: "Carlos Chagas" },
-            { codigo: 88, nome: "Aguas Formosas" }
-          ]
-        }
-      ],
+      distritais: [],
       filiais_diretas: [
         { codigo: 1, nome: "Matriz" },
         { codigo: 2, nome: "Getulio Vargas" },
@@ -414,26 +403,30 @@ export const DADOS: OrganizationalData = {
         { codigo: 23, nome: "São Jacinto" },
         { codigo: 24, nome: "Itambacuri" },
         { codigo: 39, nome: "Francisco Sa" },
+        { codigo: 40, nome: "Nanuque" },
         { codigo: 60, nome: "Duque De Caxias" },
+        { codigo: 61, nome: "Nanuque2" },
+        { codigo: 62, nome: "Carlos Chagas" },
         { codigo: 78, nome: "Mc Donald" },
+        { codigo: 88, nome: "Aguas Formosas" },
         { codigo: 122, nome: "Rio Bahia" },
         { codigo: 162, nome: "Sao Cristovao" },
         { codigo: 166, nome: "Safra T.O" },
         { codigo: 233, nome: "Rua Das Flores" },
-        { codigo: 999, nome: "Administrativo" }
+        { codigo: 300, nome: "Marajoara" }
       ],
       total_filiais: 21
     },
     {
-      codigo: "VA1",
+      codigo: "VA",
       gerente: "Fabricio Rodrigues N de Oliveira",
       telefone: "31 99644-1920",
       email: "fabricio.oliveira@farmaciaindiana.com.br",
       distritais: [
         {
-          nome: "Gabriela Figueredo Martins",
-          telefone: "31 98782-3033",
-          email: "gabriela.martins@farmaciaindiana.com.br",
+          nome: "Gabriela",
+          telefone: "",
+          email: "",
           filiais: [
             { codigo: 43, nome: "Avenida Brasil" },
             { codigo: 47, nome: "Ipatinga 2" },
@@ -475,9 +468,9 @@ export const DADOS: OrganizationalData = {
       email: "ruy.batalha@farmaciaindiana.com.br",
       distritais: [
         {
-          nome: "Sandra Oliveira C Cangussu",
-          telefone: "31 99428-3713",
-          email: "sandra.cangussu@farmaciaindiana.com.br",
+          nome: "Sandra",
+          telefone: "",
+          email: "",
           filiais: [
             { codigo: 21, nome: "Acesita" },
             { codigo: 45, nome: "Metasita" },
@@ -547,9 +540,10 @@ export const DADOS: OrganizationalData = {
         { codigo: 192, nome: "Ferroviaria" },
         { codigo: 219, nome: "Alem Paraiba" },
         { codigo: 238, nome: "Sao Joao Nepomuceno" },
-        { codigo: 284, nome: "Leopoldina 2" }
+        { codigo: 284, nome: "Leopoldina 2" },
+        { codigo: 297, nome: "Cascatinha" }
       ],
-      total_filiais: 19
+      total_filiais: 20
     }
   ]
 };

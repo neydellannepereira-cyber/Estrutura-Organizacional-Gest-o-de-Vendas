@@ -391,7 +391,19 @@ export const DADOS: OrganizationalData = {
       gerente: "Fabiano Resende",
       telefone: "31 97231-0731",
       email: "fabianoresende@farmaciaindiana.com.br",
-      distritais: [],
+      distritais: [
+        {
+          nome: "Eduardo Bastos",
+          telefone: "33 98819-7398",
+          email: "eduardo.bastos@farmaciaindiana.com.br",
+          filiais: [
+            { codigo: 40, nome: "Nanuque" },
+            { codigo: 61, nome: "Nanuque2" },
+            { codigo: 62, nome: "Carlos Chagas" },
+            { codigo: 88, nome: "Aguas Formosas" }
+          ]
+        }
+      ],
       filiais_diretas: [
         { codigo: 1, nome: "Matriz" },
         { codigo: 2, nome: "Getulio Vargas" },
@@ -403,12 +415,8 @@ export const DADOS: OrganizationalData = {
         { codigo: 23, nome: "São Jacinto" },
         { codigo: 24, nome: "Itambacuri" },
         { codigo: 39, nome: "Francisco Sa" },
-        { codigo: 40, nome: "Nanuque" },
         { codigo: 60, nome: "Duque De Caxias" },
-        { codigo: 61, nome: "Nanuque2" },
-        { codigo: 62, nome: "Carlos Chagas" },
         { codigo: 78, nome: "Mc Donald" },
-        { codigo: 88, nome: "Aguas Formosas" },
         { codigo: 122, nome: "Rio Bahia" },
         { codigo: 162, nome: "Sao Cristovao" },
         { codigo: 166, nome: "Safra T.O" },

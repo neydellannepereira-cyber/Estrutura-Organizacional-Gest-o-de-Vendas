@@ -125,8 +125,8 @@ export const DADOS: OrganizationalData = {
       distritais: [
         {
           nome: "Jarlerson",
-          telefone: "",
-          email: "",
+          telefone: "73 9944-2681",
+          email: "jarleson.carvalho@farmaciaindiana.com.br",
           filiais: [
             { codigo: 65, nome: "Eunapolis" },
             { codigo: 71, nome: "Eunapolis 2" },

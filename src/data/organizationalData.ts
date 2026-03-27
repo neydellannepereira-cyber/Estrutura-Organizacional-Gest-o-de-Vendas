@@ -221,7 +221,7 @@ export const DADOS: OrganizationalData = {
         {
           nome: "Kassia Monteiro Laurindo",
           telefone: "(27) 99503-2792",
-          email: "",
+          email: "kassia.laurindo@farmaciaindiana.com.br",
           filiais: [
             { codigo: 210, nome: "Meridional" },
             { codigo: 211, nome: "Henrique Moscoso" },

@@ -476,8 +476,8 @@ export const DADOS: OrganizationalData = {
       distritais: [
         {
           nome: "Sandra",
-          telefone: "",
-          email: "",
+          telefone: "31 9428-3713",
+          email: "sandra.cangussu@farmaciaindiana.com.br",
           filiais: [
             { codigo: 21, nome: "Acesita" },
             { codigo: 45, nome: "Metasita" },

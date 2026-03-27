@@ -203,6 +203,7 @@ export const DADOS: OrganizationalData = {
           telefone: "27 99737-5202",
           email: "ezequiel.andrade@farmaciaindiana.com.br",
           filiais: [
+            { codigo: 76, nome: "Esplanada" },
             { codigo: 94, nome: "Linhares" },
             { codigo: 114, nome: "Colatina" },
             { codigo: 115, nome: "Sao Silvano" },
@@ -213,7 +214,8 @@ export const DADOS: OrganizationalData = {
             { codigo: 222, nome: "Interlagos" },
             { codigo: 239, nome: "Anhanguera" },
             { codigo: 240, nome: "Baixo Guandu" },
-            { codigo: 287, nome: "N Sra Da Conceicao" }
+            { codigo: 287, nome: "N Sra Da Conceicao" },
+            { codigo: 295, nome: "Sao Miguel" }
           ]
         },
         {
